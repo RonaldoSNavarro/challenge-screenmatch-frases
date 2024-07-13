@@ -10,7 +10,7 @@ public class Frase {
     private Long id;
     private String titulo;
     private String frase;
-    private String personagen;
+    private String personagem;
     private String poster;
 
     public Long getId() {
@@ -37,12 +37,12 @@ public class Frase {
         this.frase = frase;
     }
 
-    public String getPersonagen() {
-        return personagen;
+    public String getPersonagem() {
+        return personagem;
     }
 
-    public void setPersonagen(String personagen) {
-        this.personagen = personagen;
+    public void setPersonagem(String personagem) {
+        this.personagem = personagem;
     }
 
     public String getPoster() {
